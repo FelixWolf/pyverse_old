@@ -1,13 +1,14 @@
-== Purpose ==
-The purpose this is to provide a simple python API to connect to Second Life.
-While [[http://wiki.secondlife.com/wiki/PyOGP|PyOGP]] exists, to my experience
+Purpose
+------
+The purpose this is to provide a simple python API to connect to Second Life.<br/>
+While [PyOGP](http://wiki.secondlife.com/wiki/PyOGP) already exists, to my experience
 the docs are missing/poorly written and it includes a lot more than just a bot.
 
 This aims to be simple, and easy to use with minimal packet construction.
 
 Example of use
 ------
-'''WARNING''': This is a proof of concept, and is not actually functional.
+**WARNING**: This is a proof of concept, and is not actually functional.<br/>
 This is what this is aimed to be at the moment.
 ```python
 import pyverse
@@ -36,17 +37,17 @@ session.sendMessage(hello)
 Current status
 ------
 zerocode.py (Fully implemented):
-    bytes pyverse.zerocode.decode(bytes)
-    bytes pyverse.zerocode.encode(bytes)
+-bytes pyverse.zerocode.decode(bytes)
+-bytes pyverse.zerocode.encode(bytes)
     
 template.py (Partually implemented, needs to be rewritten):
-    No extra info, no need to document because of being rewritten
+-No extra info, no need to document because of being rewritten
 
 message.py (Fully implemented?):
-    No extra info at the moment
+-No extra info at the moment
 
 packet.py (Junk code, needs to be rewritten(MAYBE?)):
-    No extra info at the moment
+-No extra info at the moment
 
 Contribution
 ------
@@ -83,5 +84,5 @@ I'll add the license in the code later, it's under the MIT license.
 Copyrights and disclaimers
 ------
 Pyverse and it's contributors are not endorsed, affiliated, or sponsored by
-Linden Lab, the creators of Second Life, or Second Life it's self.
+Linden Lab, the creators of Second Life, or Second Life it's self.<br/>
 Second Life is registered trademark of Linden Lab, Inc.
