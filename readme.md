@@ -37,17 +37,17 @@ session.sendMessage(hello)
 Current status
 ------
 zerocode.py (Fully implemented):
--bytes pyverse.zerocode.decode(bytes)
--bytes pyverse.zerocode.encode(bytes)
+- bytes pyverse.zerocode.decode(bytes)
+- bytes pyverse.zerocode.encode(bytes)
     
 template.py (Partually implemented, needs to be rewritten):
--No extra info, no need to document because of being rewritten
+- No extra info, no need to document because of being rewritten
 
 message.py (Fully implemented?):
--No extra info at the moment
+- No extra info at the moment
 
 packet.py (Junk code, needs to be rewritten(MAYBE?)):
--No extra info at the moment
+- No extra info at the moment
 
 Contribution
 ------
