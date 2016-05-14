@@ -1,3 +1,4 @@
+**This is hanging around for legacy purposes, see https://github.com/FelixWolf/pyverse for the newer code**
 Purpose
 ------
 The purpose this is to provide a simple python API to connect to Second Life.<br/>
